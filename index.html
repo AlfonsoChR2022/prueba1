@@ -8,5 +8,18 @@
 </head>
 <body>
     Hola mundo esta es mi prueba
+    <script type="text/javascript">
+        alert("Hola Mundo!");
+        
+    let api_key= "Tu_API_Key";
+    let api_secret= "Tu_Clave_secreta";
+    let b64 = btoa(unescape(encodeURIComponent(api_key + ":" + api_secret)));
+    console.log(`Basic ${b64}`);
+    console.log(api_key);
+    console.log(api_secret);
+
+
+
+      </script>
 </body>
 </html>
